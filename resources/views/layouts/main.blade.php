@@ -14,7 +14,9 @@
 <body>
     @include('includes.header')
     <main>
-        @yield('content')
+        <div class="container">
+            @yield('content')
+        </div>
     </main>
     @yield('scripts')
     
